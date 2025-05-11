@@ -1,0 +1,5 @@
+[33m7bd9c15[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m Melhorando suporte para tela cheia em dispositivos móveis
+[33ma510008[m Adicionando manifest.json e ícone para instalação em dispositivos móveis
+[33m0e803c2[m Refeito interface com overlay em rosa e botão central para melhor visibilidade
+[33m488a3cd[m Adaptação para dispositivos móveis e overlay para áudio
+[33ma1e2830[m Reposicionado botão de áudio para o centro da página para melhor visibilidade
