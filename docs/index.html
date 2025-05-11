@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <!-- Versão atualizada para GitHub Pages - 2025-05-11 -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="description" content="Cartão de Dia das Mães para Aparecida">
+  <meta name="author" content="Nelson">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="theme-color" content="#e91e63">
+  <meta name="apple-mobile-web-app-title" content="Dia das Mães">
+  <meta name="application-name" content="Dia das Mães">
+  <meta name="msapplication-TileColor" content="#e91e63">
+  <meta name="msapplication-navbutton-color" content="#e91e63">
+  <link rel="canonical" href="https://nelsonnedes.github.io/mae/">
+  <link rel="manifest" href="data:application/manifest+json,{%22name%22:%22Feliz%20Dia%20das%20M%C3%A3es%22,%22short_name%22:%22Dia%20das%20M%C3%A3es%22,%22display%22:%22fullscreen%22,%22orientation%22:%22portrait%22,%22background_color%22:%22%23ffe6e6%22,%22theme_color%22:%22%23e91e63%22,%22start_url%22:%22./%22}">
+  <!-- Ícones para dispositivos Apple -->
+  <link rel="apple-touch-icon" href="data:image/png;base64,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">
+  <title>Feliz Dia das Mães</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto&family=Dancing+Script:wght@400;700&family=Parisienne&family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      overflow-x: hidden;
+      -webkit-touch-callout: none; /* Impede menu de contexto no iOS */
+      -webkit-user-select: none;   /* Impede seleção de texto no Safari */
+      -khtml-user-select: none;    /* Navegadores antigos */
+      -moz-user-select: none;      /* Firefox */
+      -ms-user-select: none;       /* Internet Explorer/Edge */
+      user-select: none;           /* Padrão não-prefixado */
+      -webkit-tap-highlight-color: transparent; /* Remove destaque ao tocar elementos no mobile */
+    }
+    
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background: linear-gradient(135deg, #ffe6e6, #fff0f5);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      touch-action: manipulation; /* Otimiza toque em dispositivos móveis */
+    }
+
+    .main-container {
+      width: 100%;
+      max-width: 600px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 60px;
+      padding: 20px;
+    }
+
+    /* Ajustes para dispositivos móveis */
+    @media (max-width: 768px) {
+      body {
+        /* Ocupa toda a tela */
+        height: 100vh;
+        width: 100vw;
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+      }
+      
+      .main-container {
+        padding: 15px;
+        margin-bottom: 70px; /* Espaço para o footer */
+        height: calc(100vh - 85px); /* Altura total menos padding e footer */
+        overflow-y: auto; /* Permite rolagem dentro do container */
+        -webkit-overflow-scrolling: touch; /* Rolagem suave para iOS */
+        display: flex;
+        flex-direction: column;
+      }
+      
+      .titulo {
+        font-size: 36px;
+        padding: 10px 20px;
+        margin-top: 15px;
+        margin-bottom: 20px;
+      }
+      
+      .card {
+        padding: 20px;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        overflow-y: auto;
+      }
+      
+      .message {
+        font-size: 16px;
+        flex: 1;
+      }
+      
+      .footer {
+        padding: 12px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      .dedication {
+        font-size: 14px;
+      }
+    }
+    
+    /* Ajustes para dispositivos muito pequenos */
+    @media (max-width: 375px) {
+      .titulo {
+        font-size: 32px;
+        padding: 8px 15px;
+      }
+      
+      .card {
+        padding: 15px;
+      }
+      
+      .message {
+        font-size: 15px;
+      }
+    }
+
+    .titulo {
+      font-family: 'Parisienne', cursive;
+      font-size: 48px;
+      font-weight: bold;
+      color: #e91e63;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      margin-bottom: 30px;
+      background-color: white;
+      padding: 15px 30px;
+      border-radius: 15px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .card {
+      background-color: white;
+      border-radius: 20px;
+      padding: 30px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+      width: 100%;
+    }
+
+    .message {
+      line-height: 1.8;
+      text-align: left;
+      font-size: 18px;
+      color: #333;
+    }
+
+    .message p {
+      margin-bottom: 20px;
+    }
+
+    .message p:last-child {
+      font-weight: bold;
+      color: #e91e63;
+      font-size: 20px;
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .footer {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      text-align: center;
+      padding: 15px;
+      background-color: #fff;
+      box-shadow: 0 -5px 20px rgba(0, 0, 0, 0.1);
+      z-index: 10;
+    }
+
+    .dedication {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: bold;
+      font-size: 16px;
+      color: #e91e63;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+
+    .hearts {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      overflow: hidden;
+      z-index: -1;
+    }
+
+    .heart {
+      position: absolute;
+      color: #ff69b4;
+      font-size: 20px;
+      animation: rise 5s infinite ease-in;
+      opacity: 0.7;
+    }
+
+    @keyframes rise {
+      0% {
+        bottom: -20px;
+        transform: translateX(0) scale(1);
+        opacity: 1;
+      }
+      100% {
+        bottom: 100%;
+        transform: translateX(-50px) scale(1.5);
+        opacity: 0;
+      }
+    }
+
+    /* Estilo do botão de reprodução flutuante no topo */
+    #playButton {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      background-color: #e91e63;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 30px;
+      cursor: pointer;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+      font-size: 16px;
+      font-weight: bold;
+      z-index: 1000;
+      animation: simpleButton 2s infinite;
+      text-align: center;
+      display: block;
+    }
+
+    @keyframes simpleButton {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+      100% { transform: scale(1); }
+    }
+    
+    /* Overlay que bloqueia o conteúdo até interação */
+    #audioOverlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(255, 192, 203, 0.9);
+      z-index: 999;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    #audioOverlay .overlay-content {
+      background-color: white;
+      padding: 30px;
+      border-radius: 20px;
+      text-align: center;
+      max-width: 80%;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+      border: 3px solid #e91e63;
+    }
+    
+    #audioOverlay h2 {
+      color: #e91e63;
+      margin-top: 0;
+      font-size: 28px;
+      font-family: 'Parisienne', cursive;
+      margin-bottom: 15px;
+    }
+    
+    #audioOverlay p {
+      margin-bottom: 25px;
+      font-size: 18px;
+      color: #333;
+    }
+    
+    #playButtonOverlay {
+      background-color: #e91e63;
+      color: white;
+      padding: 15px 30px;
+      border-radius: 30px;
+      cursor: pointer;
+      font-size: 20px;
+      font-weight: bold;
+      border: none;
+      box-shadow: 0 4px 15px rgba(233, 30, 99, 0.5);
+      animation: buttonPulse 2s infinite;
+      transition: all 0.3s ease;
+    }
+    
+    @keyframes buttonPulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+      100% { transform: scale(1); }
+    }
+  </style>
+</head>
+<body>
+  <div class="main-container">
+    <h1 class="titulo">Feliz Dia das Mães 💖</h1>
+    
+    <div class="card">
+      <div class="message">
+        <p>Mãe, neste dia tão especial, queria dizer o quanto você é importante em minha vida. Hoje é o seu dia, e você merece tudo o que há de melhor neste mundo.</p>
+        
+        <p>Por você ser esta pessoa tão maravilhosa.</p>
+        
+        <p>Gostaria de poder retribuir todo o amor que você me deu, mas acho que não será possível, pois você já me deu todo o amor do mundo.</p>
+        
+        <p>Você me preparou para a vida, e se hoje eu sou alguém, é porque eu me espelhei em uma pessoa tão maravilhosa como você, minha mãe.</p>
+        
+        <p>Obrigado por tudo, por tudo que me ensinou, e obrigado pela vida que me deu.</p>
+        
+        <p>Que Deus ilumine mais e mais o seu caminho, para que você seja sempre essa pessoa maravilhosa que eu tanto amo.</p>
+        
+        <p>Feliz dia das mães! ❤️</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="footer">
+    <div class="dedication">
+      Dedicação especial de Nelson para minha mãe querida Aparecida.
+    </div>
+    <div style="margin-top: 10px;">
+      <a href="selma/" style="color: #e91e63; text-decoration: none; font-size: 14px;">Ver mensagem para Doralice</a>
+    </div>
+  </div>
+
+  <div class="hearts" id="hearts-container"></div>
+
+  <audio id="audioMensagem" src="Mensagem.mp3" preload="auto"></audio>
+
+  <div id="playButton">
+    Clique para ouvir a mensagem ♫
+  </div>
+
+  <div id="audioOverlay">
+    <div class="overlay-content">
+      <h2>💌 Mensagem Especial para Você!</h2>
+      <p>Para ouvir a música e ver a mensagem completa, por favor:</p>
+      <button id="playButtonOverlay">Clique para ouvir a mensagem ♫</button>
+    </div>
+  </div>
+
+  <script>
+    // Executar imediatamente, sem esperar pelo onload
+    (function() {
+      const audio = document.getElementById("audioMensagem");
+      const playButton = document.getElementById("playButton");
+      const audioOverlay = document.getElementById("audioOverlay");
+      const playButtonOverlay = document.getElementById("playButtonOverlay");
+      
+      // Detectar se é um dispositivo móvel
+      const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+      
+      // Função para ativar modo de tela cheia
+      function activateFullscreen() {
+        const docElm = document.documentElement;
+        
+        if (docElm.requestFullscreen) {
+          docElm.requestFullscreen();
+        } else if (docElm.mozRequestFullScreen) {
+          docElm.mozRequestFullScreen();
+        } else if (docElm.webkitRequestFullscreen) {
+          docElm.webkitRequestFullscreen();
+        } else if (docElm.msRequestFullscreen) {
+          docElm.msRequestFullscreen();
+        }
+        
+        // Travar orientação em portrait se disponível
+        if (screen.orientation && screen.orientation.lock) {
+          screen.orientation.lock('portrait').catch(function(error) {
+            console.log('Erro ao travar orientação: ', error);
+          });
+        }
+      }
+      
+      // Garantir que o overlay seja exibido imediatamente
+      audioOverlay.style.display = "flex";
+      document.body.style.overflow = "hidden"; // Impedir rolagem
+      
+      // Função para tocar o áudio e remover o overlay
+      function playAudioAndHideOverlay() {
+        if (isMobile) {
+          activateFullscreen(); // Tenta ativar tela cheia em dispositivos móveis
+        }
+        
+        audio.play().then(() => {
+          audioOverlay.style.display = "none";
+          document.body.style.overflow = "auto";
+        }).catch(error => {
+          console.log("Erro ao reproduzir áudio:", error);
+          playButton.style.display = "block";
+          audioOverlay.style.display = "none";
+          document.body.style.overflow = "auto";
+        });
+      }
+      
+      // Adicionar eventos de clique
+      playButtonOverlay.addEventListener("click", playAudioAndHideOverlay);
+      playButton.addEventListener("click", playAudioAndHideOverlay);
+      
+      // Impedir que a tela desligue em dispositivos móveis
+      if (isMobile && navigator.wakeLock) {
+        navigator.wakeLock.request('screen').catch(err => {
+          console.log(`Erro ao manter tela ativa: ${err.name}, ${err.message}`);
+        });
+      }
+      
+      // Efeito de corações
+      const heartsContainer = document.getElementById("hearts-container");
+
+      function createHeart() {
+        const heart = document.createElement("div");
+        heart.classList.add("heart");
+        heart.style.left = Math.random() * 100 + "vw";
+        heart.style.fontSize = Math.random() * 20 + 15 + "px";
+        heart.innerHTML = "❤️";
+        heartsContainer.appendChild(heart);
+        setTimeout(() => heart.remove(), 5000);
+      }
+
+      setInterval(createHeart, 500);
+      
+      // Lidar com gestos de toque para comportamento nativo
+      document.addEventListener('touchstart', function(e) {
+        // Permite rolagem nativa dentro dos contêineres
+        if (e.target.closest('.message, .card, .main-container')) {
+          e.stopPropagation();
+        }
+      }, {passive: true});
+    })();
+  </script>
+</body>
+</html>
